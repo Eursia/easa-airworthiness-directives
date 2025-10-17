@@ -1,56 +1,79 @@
-# easa-airworthiness-directives
-easa airworthiness directives Extractor
-EursiaAero AD/CN Explorer
+<p align="center">
+  <img src="logo.png" alt="Eursia Logo" width="280"/>
+</p>
 
-Developed by EURSIA Aero
+# ✈️ EursiaAero AD/CN Explorer
 
-EursiaAero AD/CN Explorer is a professional tool designed to assist with airworthiness compliance.
-It enables users to search, extract, and automatically download Airworthiness Directives (AD) and Consignes de Navigabilité (CN) published by the European Union Aviation Safety Agency (EASA), along with their associated documents (PDF and ZIP).
+> **EursiaAero AD/CN Explorer** is a professional tool designed to support aeronautical compliance operations.  
+> It automates the retrieval, extraction, and management of **Airworthiness Directives (AD)** and **Consignes de Navigabilité (CN)**  
+> published by the **European Union Aviation Safety Agency (EASA)**.
 
-Key Features
+---
 
-Search by keyword or date range
+## 🇬🇧 English
 
-Automatic download of related documents (PDF/ZIP)
+### 🔧 Key Features
+- Search by keyword or date range  
+- Automatic download of associated documents (PDF/ZIP)  
+- Persistent local SQLite database  
+- CSV export for reporting and auditing  
+- Modern UI built with QtQuick / QML  
+- Integrated 30-day trial and HMAC license management  
 
-Persistent local SQLite database
+### 🧰 Technologies
+C++17 · Qt 5.15.2 · QML · SQLite · OpenSSL · HMAC-SHA256
 
-CSV export for reporting and audit purposes
+### 🖥️ Installation
+1. Launch `EursiaAeroAD.exe`  
+2. The 30-day trial starts automatically  
+3. Enter a search keyword (e.g. *King Air 200*)  
+4. Select your dates and click **Search**  
+5. Open results (PDF or ZIP icons)  
+6. Export results using **Export CSV**
 
-Clear and responsive user interface built with QtQuick/QML
+---
 
-Integrated 30-day trial period and HMAC-based license management
+## 🇫🇷 Français
 
-Usage
+> **EursiaAero AD/CN Explorer** est un outil professionnel d’aide à la conformité aéronautique.  
+> Il permet de rechercher, extraire et télécharger automatiquement les **Consignes de Navigabilité (CN)**  
+> et **Airworthiness Directives (AD)** publiées par l’**EASA**.
 
-Launch auto-installer EursiaAeroAD.exe.
+### 🔧 Fonctionnalités principales
+- Recherche par mot-clé ou plage de dates  
+- Téléchargement automatique des documents (PDF/ZIP)  
+- Base de données SQLite locale persistante  
+- Export CSV pour rapports et audits  
+- Interface moderne QtQuick / QML  
+- Gestion intégrée de l’essai (30 jours) et de la licence HMAC  
 
-A 30-day trial period starts automatically.
+### 🧰 Technologies
+C++17 · Qt 5.15.2 · QML · SQLite · OpenSSL · HMAC-SHA256
 
-Enter a keyword (e.g., King Air 200).
+### 🖥️ Utilisation
+1. Lancez `EursiaAeroAD.exe`  
+2. Une période d’essai de 30 jours démarre automatiquement  
+3. Saisissez un mot-clé (ex. *King Air 200*)  
+4. Sélectionnez vos dates et cliquez sur **Rechercher**  
+5. Cliquez sur les icônes PDF ou ZIP pour ouvrir les fichiers associés  
+6. Exportez les résultats via **Exporter CSV**
 
-Select the desired date range and click Search.
+---
 
-Click the PDF or ZIP icons to open the corresponding files.
+## 🧾 Licensing
 
-Export results using the Export CSV function.
+- Proprietary software © **2025 Eursia**  
+- Usage restricted to licensed customers  
+- Contact **[contact@eursia.fr](mailto:contact@eursia.fr)** for license requests  
 
-Activation
+---
 
-Import the license file directly through the application.
+## 🌐 About Eursia
 
-Technologies
+**Eursia** develops professional software tools for **aviation compliance** and regulatory data automation.  
+Our mission is to make compliance management more efficient, transparent, and reliable for aviation professionals.
 
-Qt 5.15.2 – C++17 – SQLite – OpenSSL – HMAC-SHA256 – QML / QtQuick
-
-License
-
-© 2025 EURSIA Aero
-All rights reserved.
-Use restricted to licensed customers.
-
-Contact
-
-EURSIA Aero
-Developer of airworthiness compliance tools
-📧 contact@eursia.fr
+📍 Based in France  
+🌐 [www.eursia.fr](https://www.eursia.fr)  
+📧 contact@eursia.fr  
+© 2025 Eursia – All rights reserved
